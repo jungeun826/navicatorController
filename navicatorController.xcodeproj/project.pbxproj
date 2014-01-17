@@ -21,6 +21,7 @@
 		00B1525F187FDAFF0036182C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B15241187FDAFE0036182C /* UIKit.framework */; };
 		00B15267187FDAFF0036182C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00B15265187FDAFF0036182C /* InfoPlist.strings */; };
 		00B15269187FDAFF0036182C /* navicatorControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B15268187FDAFF0036182C /* navicatorControllerTests.m */; };
+		00B15274187FDD3F0036182C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B15273187FDD3F0036182C /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		00B15264187FDAFF0036182C /* navicatorControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "navicatorControllerTests-Info.plist"; sourceTree = "<group>"; };
 		00B15266187FDAFF0036182C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00B15268187FDAFF0036182C /* navicatorControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = navicatorControllerTests.m; sourceTree = "<group>"; };
+		00B15272187FDD3F0036182C /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		00B15273187FDD3F0036182C /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				00B15253187FDAFE0036182C /* ViewController.m */,
 				00B15255187FDAFE0036182C /* Images.xcassets */,
 				00B15244187FDAFE0036182C /* Supporting Files */,
+				00B15272187FDD3F0036182C /* DetailViewController.h */,
+				00B15273187FDD3F0036182C /* DetailViewController.m */,
 			);
 			path = navicatorController;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 				00B15254187FDAFE0036182C /* ViewController.m in Sources */,
 				00B1524E187FDAFE0036182C /* AppDelegate.m in Sources */,
 				00B1524A187FDAFE0036182C /* main.m in Sources */,
+				00B15274187FDD3F0036182C /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
